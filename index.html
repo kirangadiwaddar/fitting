@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body class="bg-background text-text box-border font-dmSans text-sm">
+  <header class="py-4 sm:py-8 fixed bg-brown top-0 w-full z-10">
+    <div class="container px-5 mx-auto flex justify-between items-center">
+      <div class="logo">
+        <img src="img/Logo.svg" alt="" />
+      </div>
+      <nav class="hidden md:block">
+        <div class="main-menu text-white flex justify-between space-x-10">
+          <a href="#">Home</a>
+          <a href="#">Courses</a>
+          <a href="#">Pricing</a>
+          <a href="#">Reviews</a>
+        </div>
+      </nav>
+      <div class="right-menu justify-end items-center text-white space-x-5 hidden md:flex">
+        <a href="#">Login</a>
+        <button class="btn bg-white text-brown">Sign Up</button>
+      </div>
+      <div class="menu-btn block md:hidden">
+        <span class="icon w-5 block bg-white h-0.5 mb-1.5 ml-auto"></span>
+        <span class="icon w-7 block bg-white h-0.5 mb-1.5"></span>
+        <span class="icon w-5 block bg-white h-0.5 mb-1.5"></span>
+      </div>
+      <div
+        class="mobile-menu flex flex-col justify-between bg-primary w-80 p-10 fixed top-0 bottom-0 right-0 h-full -mr-96 duration-500 md:hidden">
+        <div class="close-btn w-8">
+          <img src="img/close.png" alt="" />
+        </div>
+        <div class="main-menu flex flex-col text-white space-y-6">
+          <a class="text-xl" href="#">Home</a>
+          <a class="text-xl" href="#">Courses</a>
+          <a class="text-xl" href="#">Pricing</a>
+          <a class="text-xl" href="#">Reviews</a>
+        </div>
+        <div class="right-menu text-white space-y-5 flex flex-col">
+          <a class="text-xl" href="#">Login</a>
+          <button class="btn text-lg bg-white text-brown">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- banner -->
+  <div class="banner bg-brown py-10 sm:py-20 text-white">
+    <div class="container px-5 flex justify-center pt-14 pb-14 items-start mx-auto">
+      <div class="banner-img bg-hero bg-cover bg-center h-96 w-full flex justify-center items-center">
+        <div class="play-icon">
+          <img src="img/Play.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container px-5 mx-auto justify-between items-center md:flex">
+      <div class="md:w-1/2">
+        <h1 class="text-3xl md:text-6xl text-white font-sora font-bold leading-tight pr-0 pb-5 md:pr-12">
+          Giving good health for good peoples.
+        </h1>
+      </div>
+      <div class="md:w-1/2">
+        <p class="text-sm">
+          A Moments of Fit. Making life tougher. Get the body you want. Live
+          longer and stronger. A New Art of Fitness in your Town Face it, Fit
+          it.
+        </p>
+        <div class="btn-block py-8 space-x-5">
+          <button class="btn bg-primary text-white">Get Started</button>
+          <a href="#" class="underline">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- join block -->
+
+  <section class="pt-12 md:pt-40">
+    <div class="container mx-auto px-5 block justify-between items-center md:flex">
+      <div class="grid grid-cols-1 gap-5 lg:w-1/2 md:grid-cols-2">
+        <div class="jn-block">
+          <div class="jn-in-block bg-white p-5">
+            <div class="jn-img mb-4">
+              <img src="img/certified.svg" alt="" />
+            </div>
+            <h4 class="mb-3 font-semibold">Certified Trailer</h4>
+            <p>
+              We have world class certified trainers who has the experience of
+              many years.
+            </p>
+          </div>
+        </div>
+        <div class="jn-block">
+          <div class="jn-in-block bg-white p-5">
+            <div class="jn-img mb-4">
+              <img src="img/experience.svg" alt="" />
+            </div>
+            <h4 class="mb-3 font-semibold">Years of experience</h4>
+            <p>
+              We have world class certified trainers who has the experience of
+              many years.
+            </p>
+          </div>
+        </div>
+        <div class="jn-block">
+          <div class="jn-in-block bg-white p-5">
+            <div class="jn-img mb-4">
+              <img src="img/support.svg" alt="" />
+            </div>
+            <h4 class="mb-3 font-semibold">Support & motivation</h4>
+            <p>
+              We have world class certified trainers who has the experience of
+              many years.
+            </p>
+          </div>
+        </div>
+        <div class="jn-block">
+          <div class="jn-in-block bg-white p-5">
+            <div class="jn-img mb-4">
+              <img src="img/commitment.svg" alt="" />
+            </div>
+            <h4 class="mb-3 font-semibold">Commitment</h4>
+            <p>
+              We have world class certified trainers who has the experience of
+              many years.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/2 py-10 sm:px-20 sm:py-0">
+        <h2 class="text-2xl md:text-5xl font-bold">
+          A reason of your health, join today
+        </h2>
+        <p class="my-7">
+          A Moments of Fit. Making life tougher. Get the body you want. Live
+          longer and stronger. A New Art of Fitness in your Town Face it, Fit
+          it.
+        </p>
+        <div class="jn-counter flex justify-between items-center flex-wrap">
+          <div class="jn-count">
+            <h3 class="text-2xl">23K<span class="text-primary">+</span></h3>
+            <p>More Trainee</p>
+          </div>
+          <div class="jn-count">
+            <h3 class="text-2xl">50<span class="text-primary">+</span></h3>
+            <p>Expert Trainer</p>
+          </div>
+          <div class="jn-count">
+            <h3 class="text-2xl">100<span class="text-primary">+</span></h3>
+            <p>Gym Category</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-12 md:pt-40">
+    <div class="container mx-auto px-5 flex justify-between items-center flex-wrap">
+      <div class="sm:w-1/2 pb-20">
+        <h2 class="text-2xl md:text-4xl font-bold">
+          Proud to be the<br />
+          first fitness brand
+        </h2>
+        <p class="py-5">
+          A Moments of Fit. Making life tougher. Get the body you want. Live
+          longer and stronger. A New Art of Fitness in your Town Face it, Fit
+          it.
+        </p>
+        <div class="btn-block space-x-5 pt-5">
+          <button class="btn bg-primary text-white">Get Started</button>
+        </div>
+      </div>
+      <div class="sm:w-1/2 text-center pt-14">
+        <div class="ftb-img sm:w-1/2 relative mx-auto">
+          <div class="ftb-img-2 w-52 absolute -right-0 sm:-right-20 -top-16">
+            <img src="img/ftb-img2.jpg" alt="" />
+          </div>
+          <img src="img/ftb-img.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore block -->
+  <section class="pt-12 md:pt-40">
+    <div class="container text-center mx-auto px-5">
+      <h2 class="text-2xl md:text-4xl font-bold mb-4">Explore our program</h2>
+      <p class="sm:w-1/2 mx-auto">
+        A Moments of Fit. Making life tougher. Get the body you want. Live
+        longer and stronger. A New Art of Fitness in your Town Face it, Fit
+        it.
+      </p>
+    </div>
+    <div class="container mx-auto px-5 grid grid-cols-2 sm:grid-cols-4 gap-7 mt-16">
+      <div class="exp-block bg-white">
+        <img src="img/exp-1.jpg" alt="" />
+        <div class="exp-content p-5">
+          <h4 class="font-bold">Punching</h4>
+          <p class="py-4">
+            A Moments of Fit. Making life easy by gym. Get the body you want.
+          </p>
+          <a href="#" class="underline text-title font-bold">Join Now</a>
+        </div>
+      </div>
+      <div class="exp-block bg-white">
+        <img src="img/exp-2.jpg" alt="" />
+        <div class="exp-content p-5">
+          <h4 class="font-bold">Battle rope</h4>
+          <p class="py-4">
+            A Moments of Fit. Making life easy by gym. Get the body you want.
+          </p>
+          <a href="#" class="underline text-title font-bold">Join Now</a>
+        </div>
+      </div>
+      <div class="exp-block bg-white">
+        <img src="img/exp-3.jpg" alt="" />
+        <div class="exp-content p-5">
+          <h4 class="font-bold">Chest building</h4>
+          <p class="py-4">
+            A Moments of Fit. Making life easy by gym. Get the body you want.
+          </p>
+          <a href="#" class="underline text-title font-bold">Join Now</a>
+        </div>
+      </div>
+      <div class="exp-block bg-white">
+        <img src="img/exp-4.jpg" alt="" />
+        <div class="exp-content p-5">
+          <h4 class="font-bold">Weight gain</h4>
+          <p class="py-4">
+            A Moments of Fit. Making life easy by gym. Get the body you want.
+          </p>
+          <a href="#" class="underline text-title font-bold">Join Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials block -->
+  <section class="pt-12 md:pt-40">
+    <div class="container mx-auto px-5">
+      <h2 class="text-2xl md:text-4xl font-bold mb-4">What trainee says</h2>
+      <p class="sm:w-1/2 mb-20">
+        A Moments of Fit. Making life tougher. Get the body you want. Live
+        longer and stronger. A New Art of Fitness in your Town Face it, Fit
+        it.
+      </p>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="tr-block p-10 bg-white">
+            <p>
+              Just amazing fitness traing centre. I was admitted there for
+              building my body. Now I have got a good shape.
+            </p>
+            <div class="tr-avatar flex justify-start items-center mt-5">
+              <div class="tr-img w-12 h-12 mr-4">
+                <img src="img/avatar-1.png" alt="" />
+              </div>
+              <div class="tr-content">
+                <p>Mitchell Starc</p>
+                <span>UI designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="tr-block p-10 bg-white">
+            <p>
+              Just amazing fitness traing centre. I was admitted there for
+              building my body. Now I have got a good shape.
+            </p>
+            <div class="tr-avatar flex justify-start items-center mt-5">
+              <div class="tr-img w-12 h-12 mr-4">
+                <img src="img/avatar-2.png" alt="" />
+              </div>
+              <div class="tr-content">
+                <p>Peter Moor</p>
+                <span>UI designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="tr-block p-10 bg-white">
+            <p>
+              Just amazing fitness traing centre. I was admitted there for
+              building my body. Now I have got a good shape.
+            </p>
+            <div class="tr-avatar flex justify-start items-center mt-5">
+              <div class="tr-img w-12 h-12 mr-4">
+                <img src="img/avatar-3.png" alt="" />
+              </div>
+              <div class="tr-content">
+                <p>Joe Burns</p>
+                <span>UI designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="tr-block p-10 bg-white">
+            <p>
+              Just amazing fitness traing centre. I was admitted there for
+              building my body. Now I have got a good shape.
+            </p>
+            <div class="tr-avatar flex justify-start items-center mt-5">
+              <div class="tr-img w-12 h-12 mr-4">
+                <img src="img/avatar-1.png" alt="" />
+              </div>
+              <div class="tr-content">
+                <p>Mitchell Starc</p>
+                <span>UI designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- build block -->
+  <section class="py-12 md:py-40">
+    <div class="container mx-auto px-5 sm:flex justify-between items-center flex-wrap">
+      <div class="sm:w-1/2 text-center pt-14">
+        <div class="ftb-img sm:w-1/2 relative mx-auto">
+          <div class="ftb-img-2 w-1/2 sm:w-52 absolute -left-0 -bottom-20 sm:-left-20 sm:-bottom-16">
+            <img src="img/build2.jpg" alt="" />
+          </div>
+          <img src="img/build1.jpg" alt="" />
+        </div>
+      </div>
+      <div class="sm:w-1/2 pt-32">
+        <h2 class="text-2xl md:text-4xl font-bold">
+          Let’s build your<br />
+          body with us
+        </h2>
+        <p class="py-5">
+          A Moments of Fit. Making life tougher. Get the body you want. Live
+          longer and stronger. A New Art of Fitness in your Town Face it, Fit
+          it.
+        </p>
+        <div class="btn-block space-x-5 pt-5">
+          <button class="btn bg-primary text-white">Join Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="pt-8 bg-brown text-footer">
+    <div class="container pb-20 mx-auto px-5 sm:flex justify-between items-center">
+      <div class="sm:w-1/2">
+        <div class="ft-logo">
+          <img src="img/Logo.svg" alt="" />
+        </div>
+        <p class="pt-5 pb-10 sm:w-1/2">
+          A Moments of Fit. Making life tougher. Get the body you want. Live
+          longer and stronger. A New Art of Fitness in your Town Face it, Fit
+          it.
+        </p>
+        <div class="social-icon flex justify-start items-center space-x-3 pb-10 sm:pb-0">
+          <a href="#" class="sc-icon w-8 h-8 bg-fIcon flex justify-center items-center p-3 hover:bg-primary">
+            <img src="img/social-media/facebook.png" alt="" />
+          </a>
+          <a href="#" class="sc-icon w-8 h-8 bg-fIcon flex justify-center items-center p-2 hover:bg-primary">
+            <img src="img/social-media/twitter.png" alt="" />
+          </a>
+          <a href="#" class="sc-icon w-8 h-8 bg-fIcon flex justify-center items-center p-2 hover:bg-primary">
+            <img src="img/social-media/linkedin.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="sm:w-1/2 grid grid-cols-3 gap-5 sm:justify-items-end">
+        <div class="ft-widget">
+          <h4 class="text-white font-bold mb-4">Company</h4>
+          <div class="ft-menu flex flex-col space-y-2">
+            <a href="#">About us</a>
+            <a href="#">Meets & media</a>
+            <a href="#">News & media</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+        <div class="ft-widget">
+          <h4 class="text-white font-bold mb-4">Contact</h4>
+          <div class="ft-menu flex flex-col space-y-2">
+            <a href="#">Help/FAQ</a>
+            <a href="#">Press</a>
+            <a href="#">Partners</a>
+          </div>
+        </div>
+        <div class="ft-widget">
+          <h4 class="text-white font-bold mb-4">More</h4>
+          <div class="ft-menu flex flex-col space-y-2">
+            <a href="#">Gym</a>
+            <a href="#">Fitness</a>
+            <a href="#">Gym tips</a>
+            <a href="#">Yoga</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright bg-primary py-5 text-white">
+      <div
+        class="container mx-auto px-5 sm:flex justify-center items-center sm:justify-between sm:items-center text-center sm:text-left">
+        <div class="sm:w-1/2">
+          <p class="mb-3 sm:mb-0">
+            Developed by kiranGadiwaddar & Designed by Figma
+          </p>
+        </div>
+        <div class="sm:w-1/2 sm:text-right">
+          <p>
+            <a href="#">Terms & Condition</a> - <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
